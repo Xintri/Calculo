@@ -2,19 +2,19 @@
 const bancoPrimerParcial = [
     { 
         q: "¿Cuál de las siguientes si es una propiedad de sumatorias?", 
-        imagen: "Pregunta1Calcul.png", 
+        imagen: "img/Pregunta1Calcul.png", 
         a: ["a", "b", "c", "d"], 
         correct: 3 
     },
     { 
         q: "La integral está definida como:", 
-        imagen: "Pregunta2Calcul.png", 
+        imagen: "img/Pregunta2Calcul.png", 
         a: ["a", "b", "c", "d"], 
         correct: 2 
     },
     { 
         q: "¿Qué representa geométricamente la expresión? ", 
-        imagen: "Pregunta3Calcul.png", 
+        imagen: "img/Pregunta3Calcul.png", 
         a: ["a) El área entre dos curvas en el intervalo [a,b] ","b) El volumen de un sólido generado por revolución mediante discos sólidos ","c) El volumen de un sólido hueco generado por cilindros ", "d) La longitud de una curva rotada en el plano"], 
         correct: 1
     },
@@ -44,7 +44,7 @@ const bancoPrimerParcial = [
     },
     {
         q: "Cual es la derivada de F(X)?",
-        imagen: "Pregunta4Calcul.png",
+        imagen: "img/Pregunta4Calcul.png",
         a: ["a) F'(x)=f(a)", "b) F'(x)=0" ,"F'(x)=f(x)", "d) F'(x)=f(b)"],
         correct: 2
     },
@@ -55,62 +55,62 @@ const bancoPrimerParcial = [
         correct: 1
     },
     {
-        q: "I¿Cuál de las siguientes expressions es equivalente a",
-        imagen: "Pregunta5Calcul.png",
+        q: "¿Cuál de las siguientes expressions es equivalente a",
+        imagen: "img/Pregunta5Calcul.png",
         a: ["a) ", "b)" ,"c)", "d) "],
         correct: 0
     },
     {
         q: "Determinar el area bajo la curva en el intervalo usando sumas de riemann",
-        imagen: "Pregunta6Calcul.png",
+        imagen: "img/Pregunta6Calcul.png",
         a: ["a) 17/8 ", "b) 17/9" ,"c) 1/17", "d) 14/5"],
         correct: 0
     },
     {
         q: "Determinar el area de la region delimitada en el intervalo [0,4] y el eje x usando sumas de riemann usando a)Usando triangulos inscritos o circunscritos",
-        imagen: "Pregunta7Calcul.png",
+        imagen: "img/Pregunta7Calcul.png",
         a: ["a)9023", "b) 6767" ,"c) 8180", "d)7235"],
         correct: 2
     },
     {
         q: "Determinar el area de la region delimitada en el intervalo [2,4] y el eje x usando sumas de riemann",
-        imagen: "Pregunta8Calcul.png",
+        imagen: "img/Pregunta8Calcul.png",
         a: ["a)902/6", "b) 160/3" ,"c) 187/3", "d)67/67"],
         correct: 1
     },
     {
         q: "Determinar el area de la region delimitada en el intervalo [0,2] y el eje x",
-        imagen: "Pregunta9Calcul.png",
+        imagen: "img/Pregunta9Calcul.png",
         a: ["a)10/3", "b) 67" ,"c) 81/2", "d)10/2"],
         correct: 0
     },
     {
         q: "Determinar el area de la region delimitada en el intervalo [0,1] y el eje x",
-        imagen: "Pregunta10Calcul.png",
+        imagen: "img/Pregunta10Calcul.png",
         a: ["a) 1/4 ", "b) 1/2" ,"c) 1/3", "d) 1/5"],
         correct: 0
     },
     {
         q: "Determinar el valor aproximado de la integral",
-        imagen: "Pregunta11Calcul.png",
+        imagen: "img/Pregunta11Calcul.png",
         a: ["a) 1.85, 0.72 ", "b) 1.25, 0.29" ,"c) 1.5, 2.3", "d)7.6, 6.7"],
         correct: 0
     },
     {
         q: "Determinar el valor aproximado de la integral",
-        imagen: "Pregunta12Calcul.png",
+        imagen: "img/Pregunta12Calcul.png",
         a: ["a) 1.85, 0.72 ", "b) 1.85, 1.37" ,"c) 2.3, 1.85", "d)7.6, 6.7"],
         correct: 1
     },
     {
         q: "Hallar el volumen del solido de revolucion formado al rotar la region acotada por alrededor del eje x con el metodo de discos:",
-        imagen: "Pregunta14Calcul.png",
+        imagen: "img/Pregunta14DCalcul.png",
         a: ["a)143/3", "b) 89/6" ,"c) 67/9", "d)242/5"],
         correct: 3
     },
     {
         q: "Hallar el volumen del solido de revolucion formado al rotar la region acotada por alrededor del eje x con el metodo de arandelas:",
-        imagen: "Pregunta14Calcul.png",
+        imagen: "img/Pregunta14ACalcul.png",
         a: ["a)23", "b) 6/5" ,"c) 28/15", "d)24"],
         correct: 2
     }
@@ -178,37 +178,37 @@ const bancoSegundoParcial = [
     // --- Problemas Prácticos ---
     {
         q: "Resolver el siguiente límite:\nlim(x→∞) (2x² - 5x + 2) / (5x² - 7x - 6)",
-        imagen: "Problema1.png",
+        imagen: "img/Problema1.png",
         a: ["A) 5/2", "B) 2/5", "C) 0", "D) 1"],
         correct: 1 // B
     },
     {
         q: "Resolver el siguiente límite:\nlim(x→∞) (ln x) / √x",
-        imagen: "Problema2.png",
+        imagen: "img/Problema2.png",
         a: ["A) 1", "B) ∞", "C) 0", "D) e"],
         correct: 2 // C
     },
     {
         q: "Determinar el valor de la integral:\n∫(de -∞ a 0) e^x dx",
-        imagen: "Problema3.png",
+        imagen: "img/Problema3.png",
         a: ["A) 0", "B) 1", "C) e", "D) Diverge"],
         correct: 1 // B
     },
     {
         q: "Determina si converge y, en caso afirmativo, calcula:\n∫(de 0 a ∞) x·e^(-x) dx",
-        imagen: "Problema4.png",
+        imagen: "img/Problema4.png",
         a: ["A) 0", "B) 1", "C) 2", "D) Diverge"],
         correct: 1 // B
     },
     {
         q: "Determina si converge y, en caso afirmativo, calcula:\n∫(de -∞ a ∞) x / (x⁴ + 9) dx",
-        imagen: "Problema5.png",
+        imagen: "img/Problema5.png",
         a: ["A) 1", "B) π", "C) 0", "D) Diverge"],
         correct: 2 // C
     },
     {
         q: "Enlistar los primeros 4 términos y el término n-ésimo de la sucesión:\nan = ∑(k=1 a n) 2^(-k)",
-        imagen: "Problema6.png",
+        imagen: "img/Problema6.png",
         a: [
             "A) 1/2, 3/4, 7/8, 15/16 y an = 1 - 1/2^n", 
             "B) 1/2, 1, 3/2, 2 y an = n/2", 
@@ -219,13 +219,13 @@ const bancoSegundoParcial = [
     },
     {
         q: "Expresa el número como razón de enteros:\n1.24123123123...",
-        imagen: "Problema7.png",
+        imagen: "img/Problema7.png",
         a: ["A) 123/99", "B) 122999/99990 (u otra razón simplificada)", "C) 124/100", "D) 12311/10000"],
         correct: 1 // B
     },
     {
         q: "Aplicar el criterio del n-ésimo término de la divergencia:\n∑(n=1 a ∞) 1 / (3^n - 2)",
-        imagen: "Problema8.png",
+        imagen: "img/Problema8.png",
         a: [
             "A) Diverge porque el término general no tiende a cero.",
             "B) Diverge por ser una serie armónica.",
@@ -236,7 +236,7 @@ const bancoSegundoParcial = [
     },
     {
         q: "Usar el criterio de convergencia apropiado:\n∑(n=1 a ∞) (-1)^n / 4^n",
-        imagen: "Problema9.png",
+        imagen: "img/Problema9.png",
         a: [
             "A) Diverge.",
             "B) Converge por ser una serie geométrica.",
@@ -247,7 +247,7 @@ const bancoSegundoParcial = [
     },
     {
         q: "Determinar si converge absolutamente, condicionalmente o diverge:\n∑(n=1 a ∞) (-1)^(n+1) · n! / 2^n",
-        imagen: "Problema10.png",
+        imagen: "img/Problema10.png",
         a: [
             "A) Converge absolutamente.",
             "B) Converge condicionalmente.",
