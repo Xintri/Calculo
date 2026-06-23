@@ -116,9 +116,8 @@ const bancoPrimerParcial = [
     }
 ];
 
-// SEGUNDO PARCIAL (SIN NINGUNA ETIQUETA "CITE")
+// SEGUNDO PARCIAL
 const bancoSegundoParcial = [
-    // --- Preguntas de Teoría ---
     {
         q: "¿Cuál es la condición fundamental que debe cumplir un límite de la forma f(x)/g(x) para que se pueda aplicar directamente la regla de L'Hôpital?",
         imagen: null,
@@ -174,37 +173,35 @@ const bancoSegundoParcial = [
         ],
         correct: 1
     },
-    
-    // --- Problemas Prácticos ---
     {
         q: "Resolver el siguiente límite:\nlim(x→∞) (2x² - 5x + 2) / (5x² - 7x - 6)",
         imagen: "img/Problema1.png",
         a: ["A) 5/2", "B) 2/5", "C) 0", "D) 1"],
-        correct: 1 // B
+        correct: 1
     },
     {
         q: "Resolver el siguiente límite:\nlim(x→∞) (ln x) / √x",
         imagen: "img/Problema2.png",
         a: ["A) 1", "B) ∞", "C) 0", "D) e"],
-        correct: 2 // C
+        correct: 2
     },
     {
         q: "Determinar el valor de la integral:\n∫(de -∞ a 0) e^x dx",
         imagen: "img/Problema3.png",
         a: ["A) 0", "B) 1", "C) e", "D) Diverge"],
-        correct: 1 // B
+        correct: 1
     },
     {
         q: "Determina si converge y, en caso afirmativo, calcula:\n∫(de 0 a ∞) x·e^(-x) dx",
         imagen: "img/Problema4.png",
         a: ["A) 0", "B) 1", "C) 2", "D) Diverge"],
-        correct: 1 // B
+        correct: 1
     },
     {
         q: "Determina si converge y, en caso afirmativo, calcula:\n∫(de -∞ a ∞) x / (x⁴ + 9) dx",
         imagen: "img/Problema5.png",
         a: ["A) 1", "B) π", "C) 0", "D) Diverge"],
-        correct: 2 // C
+        correct: 2
     },
     {
         q: "Enlistar los primeros 4 términos y el término n-ésimo de la sucesión:\nan = ∑(k=1 a n) 2^(-k)",
@@ -215,13 +212,13 @@ const bancoSegundoParcial = [
             "C) 1, 1/2, 1/4, 1/8 y an = 2^-n", 
             "D) 1/2, 3/4, 5/4, 7/4 y an = (2n-1)/4"
         ],
-        correct: 0 // A
+        correct: 0
     },
     {
         q: "Expresa el número como razón de enteros:\n1.24123123123...",
         imagen: "img/Problema7.png",
         a: ["A) 123/99", "B) 122999/99990 (u otra razón simplificada)", "C) 124/100", "D) 12311/10000"],
-        correct: 1 // B
+        correct: 1
     },
     {
         q: "Aplicar el criterio del n-ésimo término de la divergencia:\n∑(n=1 a ∞) 1 / (3^n - 2)",
@@ -232,7 +229,7 @@ const bancoSegundoParcial = [
             "C) Converge.",
             "D) Converge condicionalmente."
         ],
-        correct: 2 // C
+        correct: 2
     },
     {
         q: "Usar el criterio de convergencia apropiado:\n∑(n=1 a ∞) (-1)^n / 4^n",
@@ -243,7 +240,7 @@ const bancoSegundoParcial = [
             "C) Converge por ser telescópica.",
             "D) Converge por comparación con una armónica."
         ],
-        correct: 1 // B
+        correct: 1
     },
     {
         q: "Determinar si converge absolutamente, condicionalmente o diverge:\n∑(n=1 a ∞) (-1)^(n+1) · n! / 2^n",
@@ -254,7 +251,66 @@ const bancoSegundoParcial = [
             "C) Diverge.",
             "D) Es geométrica."
         ],
-        correct: 2 // C
+        correct: 2
+    }
+];
+
+// BANCO (TERCER PARCIAL)
+const bancoTercerParcial = [
+    {
+        q: "\nHallar el radio e intervalo de convergencia de cada serie.",
+        imagen: "img/Problema1TercerParcial.png",
+        a: [
+            "a) R = 1; Intervalo: [0, 2]",
+            "b) R = 1; Intervalo: (0, 2)",
+            "c) R = 1; Intervalo: (0, 2]",
+            "d) R = 2; Intervalo: (-1, 3)"
+        ],
+        correct: 1
+    },
+    {
+        q: "\nHallar el radio e intervalo de convergencia de cada serie.",
+        imagen: "img/Problema2TercerParcial.png",
+        a: [
+            "a) R = 5; Intervalo: [-8, 2]",
+            "b) R = 5; Intervalo: (-8, 2]",
+            "c) R = 5; Intervalo: (-8, 2)",
+            "d) R = 4; intervalo: (2,-8)"
+        ],
+        correct: 2
+    },
+    {
+        q: "\nAplicar el criterio del n-ésimo término de la divergencia",
+        imagen: "img/Problema3TercerParcial.png",
+        a: [
+            "a) R = 3; Intervalo: [-1, 5)",
+            "b) R = 3; Intervalo: (-1, 5)",
+            "c) R = 3; Intervalo: [-1, 5]",
+            "d) R = 1; Intervalo: (1, 3]"
+        ],
+        correct: 0
+    },
+    {
+        q: "\nUsar el criterio de convergencia apropiado",
+        imagen: "img/Problema4TercerParcial.png",
+        a: [
+            "a) R = 1; Intervalo: (4, 6]",
+            "b) R = 1; Intervalo: [4, 6)",
+            "c) R = 1; Intervalo: (4, 6)",
+            "d) R = 1; Intervalo: [4, 6]"
+        ],
+        correct: 0
+    },
+    {
+        q: "\nDeterminar si converge absolutamente, condicionalmente o diverge",
+        imagen: "img/Problema5TercerParcial.png",
+        a: [
+            "a) R = 4; Intervalo: (-6, 2]",
+            "b) R = 4; Intervalo: [-6, 2)",
+            "c) R = 4; Intervalo: (-6, 2)",
+            "d) R = 4; Intervalo: [-6, 2]"
+        ],
+        correct: 0
     }
 ];
 
@@ -272,6 +328,7 @@ function mostrarSeleccionParcial() {
         <div class="parcial-btn-container">
             <button class="parcial-btn" onclick="seleccionarParcial(1)">Primer Parcial</button>
             <button class="parcial-btn" onclick="seleccionarParcial(2)">Segundo Parcial</button>
+            <button class="parcial-btn" onclick="seleccionarParcial(3)">Tercer Parcial</button>
         </div>
     `;
 }
@@ -285,6 +342,9 @@ function seleccionarParcial(numeroParcial) {
     } else if (numeroParcial === 2) {
         document.body.classList.add('segundo-parcial-bg'); 
         bancoActual = bancoSegundoParcial;
+    } else if (numeroParcial === 3) {
+        document.body.classList.add('tercer-parcial-bg'); 
+        bancoActual = bancoTercerParcial;
     }
     
     iniciarJuego();
@@ -309,7 +369,6 @@ function iniciarJuego() {
         }
     };
 
-    // Al azar escoge 5 preguntas del banco seleccionado
     elegidas = bancoActual.sort(() => 0.5 - Math.random()).slice(0, 5);
     actual = 0;
     puntos = 0;
@@ -361,10 +420,16 @@ function finalizar() {
     const body = document.getElementById('quiz-body');
     let mensaje = puntos >= 3 ? "¡Excelente trabajo! " : "Sigue practicando ";
     
+    let parcialNombre = "";
+    if (bancoActual === bancoPrimerParcial) parcialNombre = "Primer Parcial";
+    else if (bancoActual === bancoSegundoParcial) parcialNombre = "Segundo Parcial";
+    else if (bancoActual === bancoTercerParcial) parcialNombre = "Tercer Parcial";
+
     body.innerHTML = `
         <div style="padding: 20px;">
             <h2 style="font-size: 2.5rem; color: var(--primary); margin-bottom: 0;">${puntos}/5</h2>
-            <p style="font-size: 1.2rem; margin-bottom: 25px;">${mensaje}</p>
+            <p style="font-size: 1.2rem; margin-bottom: 5px;">${mensaje}</p>
+            <p style="font-size: 0.9rem; color: #666; margin-bottom: 25px;">Resultado del <strong>${parcialNombre}</strong></p>
             
             <div style="background: #f9f9f9; padding: 15px; border-radius: 10px; text-align: left; margin-bottom: 20px; border: 1px dashed #ccc;">
                 <strong style="display: block; margin-bottom: 10px; color: #555;">Alumnos:</strong>
@@ -378,5 +443,4 @@ function finalizar() {
     `;
 }
 
-// Inicialización de la app al cargar el script
 mostrarSeleccionParcial();

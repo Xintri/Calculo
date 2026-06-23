@@ -30,6 +30,19 @@ body.segundo-parcial-bg .quiz-container {
     box-shadow: 0 15px 35px rgba(0,0,0,0.3);
 }
 
+/* Clase para el fondo morado del Tercer Parcial */
+body.tercer-parcial-bg {
+    background-color: #5a3472; /* Color morado */
+}
+
+body.tercer-parcial-bg .quiz-container {
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+.parcial-btn:hover {
+    box-shadow: 0 5px 15px rgba(106, 27, 154, 0.3);
+}
+
 .quiz-container {
     background: var(--white);
     width: 90%;
